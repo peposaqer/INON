@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>INON </title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon2.svg"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400;500;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="web.css" />
+</head>
+<body onload="loadLang()">
+    <!-- start nav -->
+    <nav class="navbar chang navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class=" navbar-brand" href="#"><img src="img/logo.svg" alt=""></a>
+            <a class="arbic chang nav-link" href="#Arabic" onclick="setLanguage('ar')">العربيه</a>
+            <a class="en chang nav-link" href="#" onclick="setLanguage('en')">En</a>
+        </div>
+    </nav>
+    <!-- end nav -->
+    <!-- start header -->
+    <div class="chang header">
+        <div class="container">
+            <div class="chang row">
+                <div class="col-md-6 group"><img src="img/system@2x.png" alt=""></div>
+                <div class="chang col-md-6 group">
+                    <h1 id="header_h1">In Everywhere<br><span id="header_h2">On every table</span></h1>
+                    <p id="header_p">Curabitur vulputate arcu odio, ac facilisis diam accumsan ut. Ut imperdiet et leo in vulputate. Sed eleifend lacus eu sapien sagittis imperdiet. Etiam, hendrerit dui. Pellentesque auctor id enim sit amet molestie.</p>
+                    <a href="#Pricing" id="header_a">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end header -->
+    <!-- start never -->
+    <div class="chang never">
+        <div class="container">
+            <div class="chang revers row">
+                <div class="col-md-6 group">
+                    <h1 id="never_h1">Never miss a single detail,<br><span id="never_h2"> All of your data in one place.</span></h1>
+                    <p id="never_p">Curabitur vulputate arcu odio, ac facilisis diam accumsan ut. Ut imperdiet et leo in vulputate. Sed eleifend lacus eu sapien sagittis imperdiet. Etiam, hendrerit dui. Pellentesque auctor id enim sit amet.</p>
+                    <ul>
+                        <li><img src="img/icon.svg" alt=""><span id="never_span">Fermentum sit sodales</span></li>
+                        <li><img src="img/icon.svg" alt=""><span id="never_span_1">Arcu vulputate convallis</span></li>
+                        <li><img src="img/icon.svg" alt=""><span id="never_span_2">Rhoncus bibendum interdum</span></li>
+                    </ul>
+                    <a href="#Pricing" id="never_a">Register Now</a>
+                </div>
+                <div class="col-md-6 group"><img src="img/inon-db@2x.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!-- end never -->
+    <!-- start stay -->
+    <div class="chang stay">
+        <div class="container">
+            <div class="chang row">
+                <div class="col-md-6 group"><img src="img/3.png" alt=""></div>
+                <div class="col-md-6 group">
+                        <h1 id="stay_h1">Stay connected,<br><span id="stay_h2"> Curabitur vulputate arcu odio.</span></h1>
+                        <p id="stay_p">Curabitur vulputate arcu odio, ac facilisis diam accumsan ut. Ut imperdiet et leo in vulputate. Sed eleifend lacus eu sapien sagittis imperdiet. Etiam, hendrerit dui. Pellentesque auctor id enim sit amet.</p>
+                        <ul>
+                            <li><img src="img/icon.svg" alt=""><span id="stay_span_1">Fermentum sit sodales</span></li>
+                            <li><img src="img/icon.svg" alt=""><span id="stay_span_1">Arcu vulputate convallis</span></li>
+                            <li><img src="img/icon.svg" alt=""><span id="stay_span_2">Rhoncus bibendum interdum</span></li>
+                        </ul>
+                        <a href="#Pricing">Register Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end stay -->
+    <!-- start connect -->
+    <div class="chang connect">
+        <div class="container">
+            <div class="chang revers row">
+                <div class="col-md-6">
+                    <h1 id="connect_h1">Stay connected,<br><span id="connect_h2"> Curabitur vulputate arcu odio.</span></h1>
+                    <p id="connect_p">Curabitur vulputate arcu odio, ac facilisis diam accumsan ut. Ut imperdiet et leo in vulputate. Sed eleifend lacus eu sapien sagittis imperdiet. Etiam, hendrerit dui. Pellentesque auctor id enim sit amet.</p>
+                    <div class="col-md-12 d-flex pad">
+                        <div class="col-md-6 pad">
+                            <div class="col-md-12 d-flex stoke">
+                                <img src="img/safe.svg" alt="">
+                                <div class="">
+                                    <h5>Enim curabitur posuere</h5>
+                                    <p>Aliquam faucibus, odio nec commodo aliquam, neque felis</p>
+                                </div>
+                            </div>
+                            <div class="col-md-12 d-flex stoke">
+                                <img src="img/orders.svg" alt="">
+                                <div class="">
+                                    <h5>Rhoncus adipiscing lobortis</h5>
+                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-6 pad">
+                            <div class="col-md-12 d-flex stoke">
+                                <img src="img/menu.svg " alt="">
+                                <div class="">
+                                    <h5>Mauris mauris dictum</h5>
+                                    <p>The quick, brown fox jumps over a lazy dog. DJs flock by when</p>
+                                </div>
+                            </div>
+                            <div class="col-md-12 d-flex stoke">
+                                <img src="img/stock.svg" alt="">
+                                <div class="">
+                                    <h5>Pulvinar lobortis</h5>
+                                    <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6"><img src="img/tablet@2x.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    <!-- end connect -->
+    <!-- start pricing -->
+    <div class="chang pricing" id="Pricing">
+        <div class="chang container">
+            <h1 id="pricing_h1">Join us now,</h1>
+            <p>Curabitur vulputate arcu odio.</p>
+            <div class="chang row">
+                <div class="chang col-xl-3 col-md-6 col-sm-12 porta porta1">
+                    <div>
+                    <h5 id="pricing_h5_1">Free</h5>
+                    <div><span class="span">$100</span>/<span id="pricing_span_5">year</span></div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p1">Lacinia gravida</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p2">Ligula lectus suspendisse</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p3">Bibendum odio lobortis</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p4">Gravida lacus quam</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing-p5">Sit amet</p>
+                    </div>
+                    </div>
+                    <a href="#!" class="chang Register" data-toggle="modal" data-target="#exampleModal" id="openModal">Contact Us</a>
+                </div>
+                <div class="chang col-xl-3 col-md-6 col-sm-12 porta porta2">
+                    <div>
+                    <h5 id="pricing_h5_2">Basic</h5>
+                    <div><span class="span">$200</span>/<span id="pricing_span_5">year</span></div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p6">Lacinia gravida</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p7">Ligula lectus suspendisse</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p8">Bibendum odio lobortis</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p9">Gravida lacus quam</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p10">Rhoncus bibendum</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p11">Interdum consequat vehicula</p>
+                    </div>
+                    </div>
+                    <a href="#!" class="chang Register" data-toggle="modal" data-target="#exampleModal" id="openModal">Contact Us</a>
+                </div>
+                <div class="chang col-xl-3 col-md-6 col-sm-12 porta porta3">
+                    <div>
+                    <h5 id="pricing_h5_3">Vip</h5>
+                    <div><span class="span">$400</span>/<span id="pricing_span_5">year</span></div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p12">Lacinia gravida</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p13">Ligula lectus suspendisse</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p14">Bibendum odio lobortis</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p15">Gravida lacus quam</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p16">Nisi orci sodales</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p17">Est proin gravida</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p18">Ultrices enim</p>
+                    </div>
+                    </div>
+                    <a href="#!" class="chang Register" data-toggle="modal" data-target="#exampleModal" id="openModal">Contact Us</a>
+                </div>
+                <div class="chang col-xl-3 col-md-6 col-sm-12 porta porta4">
+                    <div>
+                    <h5 id="pricing_h5_4">Unlimited</h5>
+                    <div><span class="span">$1000</span>/<span id="pricing_span_5">year</span></div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p19">Lacinia gravida</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p20">Ligula lectus suspendisse</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p21">Bibendum odio lobortis</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p22">Gravida lacus quam</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p23">Orci dolor</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p24">Vulputate eget sodales</p>
+                    </div>
+                    <div class="chang icon">
+                        <i class="fas fa-check-circle"></i>
+                        <p id="pricing_p25">Lorem vulputate</p>
+                    </div>
+                    </div>
+                    <a href="#!" class="chang Register" data-toggle="modal" data-target="#exampleModal" id="openModal">Contact Us</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end pricing -->
+    <!-- start clients -->
+    <div class="chang clients">
+        <div class="container">
+            <h1 id="clients_h1">our clients</h1>
+            <p id="clients_p">Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy <br> eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam</p>
+            <div class="row">
+                <div class="col-md-6 col-sm-12 d-flex">
+                <div class="col-md-6 col-sm-6"><img src="../img/logo1.png" alt="" data-aos="fade-down"
+                    data-aos-easing="linear"
+                    data-aos-duration="1500"></div>
+                <div class="col-md-6 col-sm-6"><img src="../img/logo2.png" alt="" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500"></div>
+                </div>
+                <div class="col-md-6 col-sm-12 d-flex">
+                <div class="col-md-6 col-sm-6"><img src="../img/logo3.png" alt="" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500"></div>
+                <div class="col-md-6 col-sm-6"><img src="../img/logo4.png" alt="" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500"></div>
+                </div>
+                <div class="col-md-6 col-sm-12 d-flex">
+                <div class="col-md-6 col-sm-6"><img src="../img/logo5.png" alt="" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500"></div>
+                <div class="col-md-6 col-sm-6"><img src="../img/logo6.png" alt="" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500"></div>
+                </div>
+                <div class="col-md-6 col-sm-12 d-flex">
+                <div class="col-md-6 col-sm-6"><img src="../img/logo7.png" alt="" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500"></div>
+                <div class="col-md-6 col-sm-6"><img src="../img/logo8.png" alt="" data-aos="fade-down"
+    data-aos-easing="linear"
+    data-aos-duration="1500"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end clients -->
+    <!-- start Contact -->
+    <div class="chang Contact">
+        <div class="chang container">
+            <div class="chang pop-3">
+                <div class="chang ">
+                    <div class="chang group">
+                        <h1 id="Contact_h1">CONTACT US</h1>
+                        <p id="contact_p" class="p-1">Have a Question? Contact us now<br> We are glad to help you anytime at any moment</p>
+                    </div>
+                    <form method="GET" class="footer_formp">
+                    <input id="contact_email" class="footer_form" type="email" name="email" placeholder="Your Email" required />
+                    <textarea id="contact_textarea" class="footer_form" rows="2" placeholder="Message"></textarea>
+                    <input type="submit" value="Send Message " class="send" />
+                    </form>
+                    <h3 id="contact_h3">FOLLOW US</h3>
+                    <ul>
+                        <li><a href="#!"><i class="fab fa-linkedin"></i></a></li>
+                        <li><a href="#!"><i class="fab fa-facebook-square"></i></a></li>
+                        <li><a href="#!"><i class="fab fa-twitter"></i></a></li>
+                        <li><a href="#!"><i class="fab fa-youtube"></i></a></li>
+                        <li><a href="#!"><i class="fab fa-snapchat-ghost"></i></a></li>
+                    </ul>
+                </div>
+                <div class="chang ">
+                    <p id="contact_copy" class="copy">Copyright ©2019 All rights reserved &ensp; Powered by <a href="#!" class="plus">ViewPlus</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Contact -->
+
+    <div class=" modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class=" modal-dialog modal-xl" style="margin: 0; padding: 0; text-align: center;">
+                <div class=" modal-content" style="background-color: transparent">
+                    <div class=" modal-body test">
+                        <!-- <button type="button" class="close closeModalBtn" data-dismiss="modal" aria-label="Close" >
+                            <i class="fas fa-times" style="font-size: 40px; color: #5C5C5C;"></i>
+                        </button> -->
+                        <form>
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                    <div class="reg-model">
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col-md-12"><h1>Contact Us</h1></div>
+                                                <div class="col-md-12 pad"><input type="text" placeholder="Full Name"></div>
+                                                <div class="col-md-12 pad"><input type="text" placeholder="Email"></div>
+                                                <div class="col-md-12 pad"><input type="text" placeholder="Restaurant Name"></div>
+                                                <div class="col-md-4 pad">
+                                                    <select class="custom-select" id="validationCustom04" >
+                                                        <option id="model_input_2" selected disabled value="+02">Country</option>
+                                                        <option>+22</option>
+                                                        <option>+65</option>
+                                                        <option>+79</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-4 pad">
+                                                    <select class="custom-select" id="validationCustom04" >
+                                                        <option id="model_input_2" selected disabled value="+02">City</option>
+                                                        <option>+22</option>
+                                                        <option>+65</option>
+                                                        <option>+79</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-4 pad">
+                                                    <select class="custom-select" id="validationCustom04" >
+                                                        <option id="model_input_2" selected disabled value="+02">Province</option>
+                                                        <option>+22</option>
+                                                        <option>+65</option>
+                                                        <option>+79</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-12 pad"><input type="text" placeholder="Address"></div>
+                                                <div class="col-md-3 pad">
+                                                    <select class="custom-select" id="validationCustom04" >
+                                                        <option id="model_input_2" selected disabled value="+02">Province</option>
+                                                        <option>+22</option>
+                                                        <option>+65</option>
+                                                        <option>+79</option>
+                                                    </select>
+                                                </div>
+                                                <div class="col-md-9 pad"><input type="text" placeholder="Phone Number"></div>
+                                                <div class="col-md-6 pad1"><a href="#!" data-dismiss="modal" aria-label="Close">Cencel</a></div>
+                                                <div class="col-md-6 pad1"><a class="send" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Send</a></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+                                    <div class="container">
+                                        <div class="div">
+                                            <img src="img/check-circle-regular (2).svg" alt="">
+                                            <h1 class="h1">YOU HAVE SUCCESSFULLY SENT US</h1>
+                                            <p class="h1">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                                            <a class="Close" data-dismiss="modal" aria-label="Close"  data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">Close</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+    </div>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+    <script src="web.js"></script>
+</body>
+</html>
