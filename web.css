@@ -73,11 +73,13 @@ nav .navbar-brand img {
 
 .header h1 {
   text-transform: uppercase;
+  margin-bottom: 0;
   font-size: 36px;
 }
 
 .header span {
   font-weight: 700;
+  font-size: 36px;
 }
 
 .header p {
@@ -118,6 +120,32 @@ nav .navbar-brand img {
   font-weight: 600;
   line-height: 1.2;
   text-transform: capitalize;
+  margin-bottom: 0;
+}
+
+
+.never .span {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 0rem;
+}
+
+.connect .span {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 0rem;
+}
+
+.stay .span {
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 0rem;
 }
 
 .never p {
@@ -181,6 +209,7 @@ p {
   font-size: 30px;
   font-weight: 600;
   line-height: 1.2;
+  margin-bottom: 0;
   text-transform: capitalize;
 }
 
@@ -242,6 +271,7 @@ p {
 .connect h1 {
   text-transform: uppercase;
   font-size: 30px;
+  margin-bottom: 0;
   font-weight: 600;
   line-height: 1.2;
   text-transform: capitalize;
@@ -623,6 +653,10 @@ form input {
     flex-flow: column-reverse;
   }
 
+  .block {
+    display: block !important;
+  }
+
   
   .header p {
     font-size: 12px;
@@ -756,6 +790,10 @@ form input {
 
   .revers {
     flex-flow: column-reverse;
+  }
+
+  .block {
+    display: block !important;
   }
 
 .modal {

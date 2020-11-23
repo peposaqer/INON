@@ -1,85 +1,93 @@
 
 {
 
-    "header_h1": "نظام التصنيف",
+    "header_h1": "في كل مكان",
 
-    "header_h2": "اهنلاقلىعانحلخبى",
+    "header_h2": "على كل طاولة",
 
     "header_p": "تعبيرات Emojis الخاصة بنا سهلة الاستخدام وسهلة لتمكين العميل من إرسال صوته مباشرة إلى صانعي القرار دون أي عائق وسهولة في جمع بيانات العملاء الخاصة بهم. إنه يجعل من السهل جدًا متابعة التعليقات وتحليلها ، حيث يتيح لك توفير الوقت والطاقة للتركيز على تحسين آراء العملاء.",
 
-    "header_a": "نمىفنثىا",
+    "header_a": "سجل الان",
 
     "never_h1": "لا تفوت أي تفاصيل ،",
 
     "never_h2": "كل بياناتك في مكان واحد.",
 
-    "never_p": "Curabitur vulputate arcu odio, ac facilisis diam accumsan ut. Ut imperdiet et leo in vulputate. Sed eleifend lacus eu sapien sagittis imperdiet. Etiam, hendrerit dui. Pellentesque auctor id enim sit amet.",
+    "never_p": "ــكلم وأنـــت غاضــب فســتقول أعظم حديث تندم عليـــه : لـــن تــكون متــحدث جيــد حتى تتعلم كيــف تحســن الأصغــاء : لا أحــد يســتطيــع إهـــانتــك الإ بمســـاعدتـــك ....",
 
     "never_span": "خميرة الجلوس sodales",
 
-    "never_span_1": "Arcu vulputate convallis",
+    "never_span_1": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "never_span_2": "Rhoncus bibendum interdum", 
+    "never_span_2": "اللغة العربية خير اللغات والألسنة والإقبال", 
     
     "never_a": "سجل الان",
 
     "stay_h1": "بق على اتصال،",
 
-    "stay_h2": "Curabitur vulputate قوس أوديو.",
+    "stay_h2": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "stay_p": "Curabitur vulputate arcu odio, ac facilisis diam accumsan ut. Ut imperdiet et leo in vulputate. Sed eleifend lacus eu sapien sagittis imperdiet. Etiam, hendrerit dui. Pellentesque auctor id enim sit amet.",
+    "stay_p": "ــكلم وأنـــت غاضــب فســتقول أعظم حديث تندم عليـــه : لـــن تــكون متــحدث جيــد حتى تتعلم كيــف تحســن الأصغــاء : لا أحــد يســتطيــع إهـــانتــك الإ بمســـاعدتـــك ....",
 
-    "stay_span": "Fermentum sit sodales",
+    "stay_span": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "stay_span_1": "Arcu vulputate convallis",
+    "stay_span_1": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "stay_span_2": "Rhoncus bibendum interdum", 
+    "stay_span_2": "Rاللغة العربية خير اللغات والألسنة والإقبال",
+    
+    "stay_a": "سجل الان",
 
     "connect_h1": "بق على اتصال،",
 
-    "connect_h2": "Curabitur vulputate arcu odio.",
+    "connect_h2": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "connect_p": "Curabitur vulputate arcu odio, ac facilisis diam accumsan ut. Ut imperdiet et leo in vulputate. Sed eleifend lacus eu sapien sagittis imperdiet. Etiam, hendrerit dui. Pellentesque auctor id enim sit amet.",
+    "connect_p": "ــكلم وأنـــت غاضــب فســتقول أعظم حديث تندم عليـــه : لـــن تــكون متــحدث جيــد حتى تتعلم كيــف تحســن الأصغــاء : لا أحــد يســتطيــع إهـــانتــك الإ بمســـاعدتـــك ....",
 
     "pricing_h1": "انضم إلينا الآن ،",
 
-    "pricing_h2": "Curabitur vulputate arcu odio.",
+    "pricing_h2": "اللغة العربية خير اللغات والألسنة والإقبال",
 
     "pricing_h5_1": "مجانا",
 
     "pricing_p1": "لاسينيا جرابيدا",
 
-    "pricing_p2": "Ligula lectus suspendisse",
+    "pricing_p2": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p3": "Bibendum odio lobortis",
+    "pricing_p3": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p4": "Gravida lacus quam",
+    "pricing_p4": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p5": "Sit amet",
+    "pricing_p5": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "openModal": "Register Now",
+    "openModal": "احجز الان",
+
+    "openModal_1": "احجز الان",
+
+    "openModal_2": "احجز الان",
+
+    "openModal_3": "احجز الان",
 
     "pricing_h5_2": "الأساسي",
 
     "pricing_span_1": "$200/عام",
 
-    "pricing_p6": "Lacinia gravida",
+    "pricing_p6": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p7": "Ligula lectus suspendisse",
+    "pricing_p7": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p8": "Bibendum odio lobortis",
+    "pricing_p8": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p9": "Gravida lacus quam",
+    "pricing_p9": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p10": "Rhoncus bibendum",
+    "pricing_p10": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p11": "Interdum consequat vehicula",
+    "pricing_p11": "اللغة العربية خير اللغات والألسنة والإقبال",
 
     "pricing_h5_3": "كبار الشخصيات",
 
     "pricing_span_2": "$400/عام",
 
-    "pricing_p12": "Lacinia gravida",
+    "pricing_p12": "اللغة العربية خير اللغات والألسنة والإقبال",
 
     "pricing_span_5": "عام",
 
@@ -89,37 +97,37 @@
 
     "pricing_span_8": "عام",
 
-    "pricing_p13": "Ligula lectus suspendisse",
+    "pricing_p13": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p14": "Bibendum odio lobortis",
+    "pricing_p14": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p15": "Gravida lacus quam",
+    "pricing_p15": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p16": "Nisi orci sodales",
+    "pricing_p16": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p17": "Est proin gravida",
+    "pricing_p17": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p18": "Ultrices enim",
+    "pricing_p18": "اللغة العربية خير اللغات والألسنة والإقبال",
 
     "pricing_h5_4": "غير محدود",
 
-    "pricing_p19": "Lacinia gravida",
+    "pricing_p19": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p20": "Ligula lectus suspendisse",
+    "pricing_p20": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p21": "Bibendum odio lobortis",
+    "pricing_p21": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p22": "Gravida lacus quam",
+    "pricing_p22": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p23": "Orci dolor",
+    "pricing_p23": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p24": "Vulputate eget sodales",
+    "pricing_p24": "اللغة العربية خير اللغات والألسنة والإقبال",
 
-    "pricing_p25": "Lorem vulputate",
+    "pricing_p25": "اللغة العربية خير اللغات والألسنة والإقبال",
 
     "clients_h1": "عملائنا",
 
-    "clients_p": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr,sed diam nonumy  eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam",
+    "clients_p": "وإذا استثنينا الصين فلا يوجد شعب آخر يحق له الفخر بوفرة كتب علوم لغته غير العرب إقرأ المزيد على موضوع.كوم",
 
     "Contact_h1": "اتصل بنا",
 
