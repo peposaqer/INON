@@ -610,8 +610,8 @@ form input {
   color: #FFF;
   background-color: #A01D21;
   padding: 1rem;
-  padding-left: 6rem;
-  padding-right: 6rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 .model img {
@@ -1022,6 +1022,25 @@ form input {
     padding-left: 3rem !important;
     padding-right: 3rem !important;
   }
+
+}
+
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  
+
+.modal {
+  background-color: #FFF;
+    border: 1px solid #707070;
+    border-radius: 10px;
+    opacity: 1;
+    max-width: 36vw;
+    max-height: 85%;
+    height: 100%;
+    margin-left: 32vw;
+    /* margin-top: 20vh; */
+}
+
 
 }
 
