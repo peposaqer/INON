@@ -80,6 +80,7 @@ nav .navbar-brand img {
 .header span {
   font-weight: 700;
   font-size: 36px;
+  text-transform: uppercase;
 }
 
 .header p {
@@ -649,6 +650,46 @@ form input {
     font-size: 20px;
   }
 
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .header span {
+    font-size: 25px;
+  }
+
+  .never h1 {
+    font-size: 25px;
+  }
+
+  .never .span {
+    font-size: 23px;
+  }
+  
+  .stay h1 {
+    font-size: 25px;
+  }
+
+  .stay .span {
+    font-size: 23px;
+  }
+
+    
+  .connect h1 {
+    font-size: 25px;
+  }
+
+  .connect .span {
+    font-size: 23px;
+  }
+
+  form .revers {
+    display: block;
+  }
+
+  .modal .Close {
+    padding: .4rem;
+  }
   .revers {
     flex-flow: column-reverse;
   }
@@ -782,6 +823,47 @@ form input {
   
   .clients h1 {
     font-size: 20px;
+  }
+
+  .header h1 {
+    font-size: 28px;
+  }
+
+  .header span {
+    font-size: 25px;
+  }
+
+  .never h1 {
+    font-size: 25px;
+  }
+
+  .never .span {
+    font-size: 23px;
+  }
+  
+  .stay h1 {
+    font-size: 25px;
+  }
+
+  .stay .span {
+    font-size: 23px;
+  }
+
+    
+  .connect h1 {
+    font-size: 25px;
+  }
+
+  .connect .span {
+    font-size: 23px;
+  }
+
+  form .revers {
+    display: block;
+  }
+
+  .modal .Close {
+    padding: .4rem;
   }
 
   .clients p {
