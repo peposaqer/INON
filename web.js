@@ -1,5 +1,6 @@
 
 
+
 $(".porta1").on({
   mouseenter: function () {
     //stuff to do on mouse enter
