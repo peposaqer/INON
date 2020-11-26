@@ -546,11 +546,19 @@ p {
 .plus {
   text-decoration: none;
   color: #FFF;
+  margin-left: .2rem;
+  margin-right: .2rem;
 }
 .plus:hover {
   text-decoration: none;
   color: #FFF;
 }
+
+.view {
+  justify-content: center;
+  font-size: 14px;
+}
+
 
 /* end Contact */
 

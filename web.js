@@ -224,6 +224,7 @@ function arabicLang() {
   $("#clients_p").text(language.clients_p);
   $("#Contact_h1").text(language.Contact_h1);
   $("#contact_p").text(language.contact_p);
+  $("#contact_a").attr("value", language.contact_a);
   $("#contact_h3").text(language.contact_h3);
   $("#contact_copy").text(language.contact_copy);
   $("#contact_email").attr("placeholder", language.contact_email);
@@ -317,6 +318,7 @@ function englishLang() {
   $("#contact_copy").text(language.contact_copy);
   $("#contact_email").attr("placeholder", language.contact_email);
   $("#contact_textarea").attr("placeholder", language.contact_textarea);
+  $("#contact_a").attr("value", language.contact_a);
   $(".header h1").css({ "text-align": "left" });
   $(".header h2").css({ "text-align": "left" });
   $(".header p").css({ "text-align": "left" });
