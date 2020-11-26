@@ -585,7 +585,9 @@ form input {
   margin-top: 3%;
 }
 
-
+.modal .revers {
+  margin-bottom: 3rem;
+}
 
 .modal h1 {
   font-size: 24px;
@@ -612,7 +614,6 @@ form input {
   padding: 1rem;
   padding-left: 5rem;
   padding-right: 5rem;
-  margin-bottom: 3rem;
 }
 
 .model img {
@@ -677,6 +678,9 @@ form input {
     font-size: 23px;
   }
 
+  .modal .revers {
+    margin-bottom: 1rem !important;
+  }
     
   .connect h1 {
     font-size: 25px;
@@ -863,6 +867,7 @@ form input {
 
   form .revers {
     display: block;
+    margin-bottom: 1rem !important;
   }
 
   .modal .Close {
@@ -1025,7 +1030,6 @@ form input {
   }
 
 }
-
 
 @media (min-width: 1025px) and (max-width: 1440px) {
   
